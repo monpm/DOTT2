@@ -1,6 +1,5 @@
 # DOTT: DevOps Test Task
 
-Monserrat Piña
 
 Welcome to DOTT.
 
