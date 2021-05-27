@@ -23,7 +23,7 @@ pipeline {
     }
     stage('test') {
       steps {
-        sh 'pytest ./tests.py' //fake news ppl
+        sh 'pytest ./tests.py'
       }
     }
   }
