@@ -4,6 +4,7 @@ properties([pipelineTriggers([githubPush()])])
 pipeline {
   agent { 
     docker { 
+      service docker start
       image 'python:3.7.9' // this specifies the tests must be run with python
     } 
   }
