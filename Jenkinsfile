@@ -1,5 +1,5 @@
 /* since the webhook refuses to work, this line was added*/
-//properties([pipelineTriggers([githubPush()])])
+properties([pipelineTriggers([githubPush()])])
 
 pipeline {
   agent any //{ 
