@@ -65,7 +65,7 @@ pipeline {
     stage('st.code analysis') {
       steps {
         tools {
-          jdk "JDK11"
+          JDK11 "JDK11"
         }
         script {
           def scannerHome = tool 'sonarcloudint'; 
