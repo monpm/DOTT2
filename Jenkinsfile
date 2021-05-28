@@ -35,9 +35,9 @@ pipeline {
     stage('code analysis') {
       steps {
         script {
-          def scannerHome = tool 'sonarqubeint';
-          withSonarQubeEnv("sonarqube-container") {
-            sh "${tool("sonarqubeint")}/bin/sonar-scanner \
+          def scannerHome = tool 'sonarqube';
+          withSonarQubeEnv("sonarqubeint") {
+            sh "${tool("sonarqube")}/bin/sonar-scanner \
             -Dsonar.projectKey=second-test_python-DOTT \
             -Dsonar.sources=. \
             -Dsonar.host.url=http://54.82.121.32:9000 \
