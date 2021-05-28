@@ -1,5 +1,6 @@
 # DOTT: DevOps Test Task
 
+Hi!
 
 Welcome to DOTT.
 
