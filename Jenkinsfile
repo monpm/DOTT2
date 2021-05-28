@@ -73,7 +73,7 @@ pipeline {
             -Dsonar.sources=. \
             -Dsonar.host.url=https://sonarcloud.io \
             //-Dsonar.login=2d2de66a8adfd562117ee7a3fd796148d211b8e5"
-            //-Dsonar.login=${("sonarcloud-token")}"
+            -Dsonar.login=${("sonarcloud-token")}"
           }
         }
       }
