@@ -40,12 +40,12 @@ pipeline {
       //}
     //}
     
-    stage('python checkout') {
-      steps {
-        sh 'python --version'
-        sh 'echo $WORKSPACE'
-      }
-    }
+    //stage('python checkout') {
+      //steps {
+        //sh 'python --version'
+        //sh 'echo $WORKSPACE'
+      //}
+    //}
     
     //stage('code analysis') {
       //steps {
