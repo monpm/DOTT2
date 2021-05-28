@@ -99,7 +99,7 @@ pipeline {
       }
     }
     
-    stage('delete existing container') {                 // for re-building purposes
+    stage('delete existing container') {                 // for re-building purposes 
       steps {
         catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
           sh 'docker stop py'
