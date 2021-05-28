@@ -41,7 +41,7 @@ pipeline {
             -Dsonar.projectKey=second-test_python-DOTT \
             -Dsonar.sources=. \
             -Dsonar.host.url=http://54.82.121.32:9000 \
-            -Dsonar.login=8ae41de7e4681440cac4f4e128b939476dc2d1a0
+            -Dsonar.login=8ae41de7e4681440cac4f4e128b939476dc2d1a0"
           }
         }
       }
